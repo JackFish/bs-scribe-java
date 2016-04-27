@@ -1,0 +1,166 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.beansugar.oauth</groupId>
+	<artifactId>bs-oauth-java</artifactId>
+	<packaging>jar</packaging>
+	<version>2.0.6</version>
+	<name>BS OAuth library</name>
+	<description>scribe-java 베이스로 했었는데 변경을 좀 심하게함. 호환안됨.</description>
+	<url>http://github.com/archmagece/bs-scribe-java.git</url>
+
+	<properties>
+		<java-version>1.7</java-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<com.google.code.gson-version>2.3.1</com.google.code.gson-version>
+		<org.beansugar.tools-version>tools-A2-1-BUILD-SNAPSHOT</org.beansugar.tools-version>
+	</properties>
+
+	<developers>
+		<developer>
+			<id>archmagece</id>
+			<name>CEL</name>
+			<email>archmagece@gmail.com</email>
+			<timezone>+9</timezone>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>MIT</name>
+			<url>https://github.com/archmagece/bs-oauth-java/blob/master/LICENSE.txt</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:https://github.com/archmagece/bs-oauth-java.git</connection>
+		<developerConnection>scm:https://github.com/archmagece/bs-oauth-java.git</developerConnection>
+		<url>https://github.com/archmagece/bs-oauth-java</url>
+	</scm>
+
+	<distributionManagement>
+		<!--<repository>-->
+			<!--<id>beansugar-release</id>-->
+			<!--<url>http://nexus.beansugar.org/content/repositories/beansugar-release</url>-->
+		<!--</repository>-->
+		<!--<snapshotRepository>-->
+			<!--<id>beansugar-snapshot</id>-->
+			<!--<url>http://nexus.beansugar.org/content/repositories/beansugar-snapshot</url>-->
+		<!--</snapshotRepository>-->
+		<repository>
+			<id>buskingplay-release</id>
+			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-release</url>
+		</repository>
+		<snapshotRepository>
+			<id>buskingplay-snapshot</id>
+			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>Maven Repository Switchboard</name>
+			<layout>default</layout>
+			<url>http://repo1.maven.org/maven2</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>buskingplay-private-snapshot</id>
+			<name>buskingplay-private-snapshot</name>
+			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-private-snapshot</url>
+		</repository>
+		<repository>
+			<id>buskingplay-private-release</id>
+			<name>buskingplay-private-release</name>
+			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-private-release</url>
+		</repository>
+		<repository>
+			<id>buskingplay-snapshot</id>
+			<name>buskingplay-snapshot</name>
+			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-snapshot</url>
+		</repository>
+		<repository>
+			<id>buskingplay-release</id>
+			<name>buskingplay-release</name>
+			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-release</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.beansugar.tools</groupId>
+			<artifactId>bs-tools-core</artifactId>
+			<version>${org.beansugar.tools-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.beansugar.tools</groupId>
+			<artifactId>bs-tools-collection</artifactId>
+			<version>${org.beansugar.tools-version}</version>
+		</dependency>
+		<!-- commons -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.4</version>
+			<scope>compile</scope>
+			<optional>true</optional>
+		</dependency>
+		<!-- gson,json -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${com.google.code.gson-version}</version>
+		</dependency>
+
+
+		<!-- project lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.4</version>
+		</dependency>
+
+
+		<!-- logging -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+		<!-- test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>${java-version}</source>
+					<target>${java-version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

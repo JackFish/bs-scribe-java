@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<version>2.0</version>
+	<sites>
+		<site>
+			<name>naver</name>
+			<authorization>
+				<endpoint>https://accounts.google.com/o/oauth2/auth</endpoint>
+				<verb>get</verb>
+				<query>
+					<key>client_id</key>
+					<key>redirect_uri</key>
+					<key>response_type</key>
+					<key>scope</key>
+				</query>
+			</authorization>
+			<token>
+				<endpoint>https://accounts.google.com/o/oauth2/token</endpoint>
+				<verb>post</verb>
+				<query>
+					<key>client_id</key>
+					<key>client_secret</key>
+					<key>code</key>
+					<key>redirect_uri</key>
+					<key>grant_type</key>
+				</query>
+			</token>
+		</site>
+	</sites>
+</config>

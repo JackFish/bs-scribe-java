@@ -1,0 +1,38 @@
+{
+	"version":"oauth1",
+	"sites":{
+		"naver":{
+			"accessTokenExtractor": "",
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+	}
+}

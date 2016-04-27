@@ -1,0 +1,17 @@
+{
+	"version":"oauth1",
+	"default":{
+		"authorizeUrl": "",
+		"authenticateUrl": ""
+	},
+	"sites":{
+		"naver":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		},
+		"daum":{
+			"authorizeUrl": "",
+			"authenticateUrl": ""
+		}
+	}
+}
