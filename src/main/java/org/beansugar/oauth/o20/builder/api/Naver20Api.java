@@ -37,8 +37,8 @@ public class Naver20Api extends Default20Api {
 		ParameterList parameterList = new ParameterList()
 				.add(OAuth2Constants.CLIENT_ID.value, config.getApiKey())
 				.add(OAuth2Constants.REDIRECT_URI.value, config.getCallback())
-				.add(OAuth2Constants.RESPONSE_TYPE.value, "code")
-				.add(OAuth2Constants.STATE.value, "g4tg34tg34");
+				.add(OAuth2Constants.RESPONSE_TYPE.value, "code");
+//				.add(OAuth2Constants.STATE.value, "g4tg34tg34");
 		if (config.getScope() != null) {
 			parameterList.add(OAuth2Constants.SCOPE.value, config.getScope());
 		}
