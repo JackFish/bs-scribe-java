@@ -8,11 +8,11 @@ import org.beansugar.oauth.o20.service.OAuth20Service;
 @Slf4j
 public class Naver20Example {
 	private static final String NETWORK_NAME = "naver";
-	private static final String API_KEY = "your_api_key";
-	private static final String API_SECRET = "your_api_secret";
+	private static final String API_KEY = "api-key";
+	private static final String API_SECRET = "api-secret";
 	private static final String PROTECTED_RESOURCE_URL = "https://openapi.naver.com/v1/nid/getUserProfile.xml";
 
-	private static final String callbackUrl = "http://sso.beansugar.org/action/oauth2/naver/redirect";
+	private static final String callbackUrl = "http://localhost:8080/action/oauth2/naver/redirect";
 	private static final String scope = null;
 
 	public static void main(String[] args) {

@@ -12,12 +12,13 @@ import org.beansugar.oauth.o20.service.OAuth20Service;
 @Slf4j
 public class Kakao20Example {
 	private static final String NETWORK_NAME = "kakao";
-	private static final String API_KEY = "gewewgwegew";
+	private static final String API_KEY = "api-key";
 	//BSWARN 미친놈들이라 이게 널임
 	private static final String API_SECRET = null;
-	private static final String PROTECTED_RESOURCE_URL = "https://kapi.kakao.com/v1/api/talk/profile";
+//	private static final String PROTECTED_RESOURCE_URL = "https://kapi.kakao.com/v1/api/talk/profile";
+	private static final String PROTECTED_RESOURCE_URL = "https://kapi.kakao.com/v1/user/me";
 
-	private static final String callbackUrl = "http://localhost:8080/social/kakao/redirect";
+	private static final String callbackUrl = "http://localhost:8080/action/auth/social/kakao/redirect";
 	private static final String scope = null;
 
 	public static void main(String[] args) {
