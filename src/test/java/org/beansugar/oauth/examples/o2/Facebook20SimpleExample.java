@@ -39,8 +39,6 @@ public class Facebook20SimpleExample {
 	public void before() {
 //		beansugar
 		callService = new OAuth20ServiceSimple(new Facebook20Api(), new OAuth20Config(API_KEY, API_SECRET, "http://sso.beansugar.org/fwe", null));
-//		real
-//		callService = new OAuth20ServiceSimple(new Facebook20Api(), new OAuth20Config(apiKey, apiSecret, "https://buskingplay.com/wefew", null));
 	}
 
 	/**

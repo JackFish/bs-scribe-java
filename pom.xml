@@ -61,26 +61,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<repository>
-			<id>buskingplay-private-snapshot</id>
-			<name>buskingplay-private-snapshot</name>
-			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-private-snapshot</url>
-		</repository>
-		<repository>
-			<id>buskingplay-private-release</id>
-			<name>buskingplay-private-release</name>
-			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-private-release</url>
-		</repository>
-		<repository>
-			<id>buskingplay-snapshot</id>
-			<name>buskingplay-snapshot</name>
-			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-snapshot</url>
-		</repository>
-		<repository>
-			<id>buskingplay-release</id>
-			<name>buskingplay-release</name>
-			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-release</url>
-		</repository>
 	</repositories>
 
 	<dependencies>
