@@ -41,21 +41,13 @@
 	</scm>
 
 	<distributionManagement>
-		<!--<repository>-->
-			<!--<id>beansugar-release</id>-->
-			<!--<url>http://nexus.beansugar.org/content/repositories/beansugar-release</url>-->
-		<!--</repository>-->
-		<!--<snapshotRepository>-->
-			<!--<id>beansugar-snapshot</id>-->
-			<!--<url>http://nexus.beansugar.org/content/repositories/beansugar-snapshot</url>-->
-		<!--</snapshotRepository>-->
 		<repository>
-			<id>buskingplay-release</id>
-			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-release</url>
+			<id>beansugar-release</id>
+			<url>http://nexus.beansugar.org/content/repositories/beansugar-release</url>
 		</repository>
 		<snapshotRepository>
-			<id>buskingplay-snapshot</id>
-			<url>http://nexus.buskingplay.com/content/repositories/buskingplay-snapshot</url>
+			<id>beansugar-snapshot</id>
+			<url>http://nexus.beansugar.org/content/repositories/beansugar-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
 
