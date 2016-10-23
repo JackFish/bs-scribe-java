@@ -15,7 +15,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<com.google.code.gson-version>2.3.1</com.google.code.gson-version>
-		<org.beansugar.tools-version>tools-A2-1-BUILD-SNAPSHOT</org.beansugar.tools-version>
+		<org.beansugar.tools-version>tools-A10-4-BUILD-SNAPSHOT</org.beansugar.tools-version>
 	</properties>
 
 	<developers>
