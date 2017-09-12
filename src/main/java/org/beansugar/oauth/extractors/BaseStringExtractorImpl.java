@@ -5,7 +5,7 @@ import org.beansugar.oauth.model.ParameterList;
 import org.beansugar.oauth.net.OAuthRequest;
 import org.beansugar.oauth.utils.OAuthEncoder;
 import org.beansugar.oauth.utils.ParameterUtils;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 /**
  * Default implementation of {@link BaseStringExtractor}. Conforms to OAuth 1.0a

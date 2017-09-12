@@ -2,7 +2,7 @@ package org.beansugar.oauth.services.signature;
 
 import org.beansugar.oauth.exceptions.OAuthSignatureException;
 import org.beansugar.oauth.utils.OAuthEncoder;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 /**
  * plaintext implementation of {@link SignatureService}

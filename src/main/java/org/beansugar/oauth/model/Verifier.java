@@ -1,7 +1,7 @@
 package org.beansugar.oauth.model;
 
 import lombok.Getter;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 /**
  * Represents an OAuth verifier code.

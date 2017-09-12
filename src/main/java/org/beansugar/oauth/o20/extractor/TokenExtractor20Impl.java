@@ -3,7 +3,7 @@ package org.beansugar.oauth.o20.extractor;
 import org.beansugar.oauth.exceptions.OAuthException;
 import org.beansugar.oauth.o20.model.Token20Result;
 import org.beansugar.oauth.utils.OAuthEncoder;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

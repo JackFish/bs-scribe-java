@@ -2,7 +2,7 @@ package org.beansugar.oauth.o20.model;
 
 import lombok.Getter;
 import org.beansugar.oauth.model.type.OAuthConstants;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 public final class OAuth20Config {
 

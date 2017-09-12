@@ -11,7 +11,7 @@ import org.beansugar.oauth.o20.model.Token20Result;
 import org.beansugar.oauth.o20.type.OAuth2ResponseType;
 import org.beansugar.oauth.utils.JsonUtil;
 import org.beansugar.oauth.utils.ParameterUtils;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.util.Map;
 

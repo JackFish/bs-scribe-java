@@ -4,7 +4,7 @@ import org.beansugar.oauth.model.ParameterList;
 import org.beansugar.oauth.o20.OAuth2Constants;
 import org.beansugar.oauth.o20.model.OAuth20Config;
 import org.beansugar.oauth.utils.ParameterUtils;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 public class Facebook20Api extends Default20Api {
 	private static final String AUTHORIZE_URL = "https://www.facebook.com/dialog/oauth";

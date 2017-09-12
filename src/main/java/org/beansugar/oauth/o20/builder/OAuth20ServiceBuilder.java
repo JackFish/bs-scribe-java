@@ -4,7 +4,7 @@ import org.beansugar.oauth.o20.builder.api.Api20;
 import org.beansugar.oauth.o20.model.OAuth20Config;
 import org.beansugar.oauth.o20.service.OAuth20Service;
 import org.beansugar.oauth.utils.ClassUtils;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 /**
  * Implementation of the Builder pattern, with a fluent interface that creates a

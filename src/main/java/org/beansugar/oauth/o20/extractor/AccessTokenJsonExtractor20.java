@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.beansugar.oauth.exceptions.OAuthException;
 import org.beansugar.oauth.o20.model.Token20Result;
 import org.beansugar.oauth.utils.JsonUtil;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.util.Map;
 import java.util.regex.Pattern;

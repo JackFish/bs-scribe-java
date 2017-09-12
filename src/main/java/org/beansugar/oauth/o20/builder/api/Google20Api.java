@@ -11,8 +11,8 @@ import org.beansugar.oauth.o20.service.OAuth20ServiceSimple;
 import org.beansugar.oauth.o20.type.OAuth2ResponseType;
 import org.beansugar.oauth.utils.JsonUtil;
 import org.beansugar.oauth.utils.ParameterUtils;
-import org.beansugar.tools.collection.builder.SetBuilder;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.collection.builder.SetBuilder;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.util.Map;
 import java.util.Set;
@@ -21,13 +21,13 @@ public class Google20Api extends Default20Api {
 	//TODO 필수컬럼 등 필요한거 정리해서 변경.
 	private static final String AUTHORIZE_URL = "https://accounts.google.com/o/oauth2/auth";
 	private Set<OAuth2Constants> authEssential = SetBuilder.create(OAuth2Constants.class)
-			.a(OAuth2Constants.CLIENT_ID, OAuth2Constants.REDIRECT_URI)
+			.add(OAuth2Constants.CLIENT_ID, OAuth2Constants.REDIRECT_URI)
 			.build();
 	private Set<OAuth2Constants> authFixed = SetBuilder.create(OAuth2Constants.class)
-			.a(OAuth2Constants.RESPONSE_TYPE)
+			.add(OAuth2Constants.RESPONSE_TYPE)
 			.build();
 	private Set<OAuth2Constants> authOptional = SetBuilder.create(OAuth2Constants.class)
-			.a(OAuth2Constants.SCOPE)
+			.add(OAuth2Constants.SCOPE)
 			.build();
 
 	@Override
@@ -45,13 +45,13 @@ public class Google20Api extends Default20Api {
 	private static final String ACCESS_TOKEN_URL = "https://accounts.google.com/o/oauth2/token";
 	private HttpVerb tokenVerb = HttpVerb.POST;
 	private Set<OAuth2Constants> tokenEssential = SetBuilder.create(OAuth2Constants.class)
-			.a(OAuth2Constants.CLIENT_ID, OAuth2Constants.CLIENT_SECRET, OAuth2Constants.CODE, OAuth2Constants.REDIRECT_URI)
+			.add(OAuth2Constants.CLIENT_ID, OAuth2Constants.CLIENT_SECRET, OAuth2Constants.CODE, OAuth2Constants.REDIRECT_URI)
 			.build();
 	private Set<OAuth2Constants> tokenFixed = SetBuilder.create(OAuth2Constants.class)
-			.a(OAuth2Constants.GRANT_TYPE)
+			.add(OAuth2Constants.GRANT_TYPE)
 			.build();
 	private Set<OAuth2Constants> tokenOptional = SetBuilder.create(OAuth2Constants.class)
-			.a()
+			.add()
 			.build();
 
 	@Override

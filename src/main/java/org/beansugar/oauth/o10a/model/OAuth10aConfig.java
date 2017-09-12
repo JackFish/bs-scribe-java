@@ -3,7 +3,7 @@ package org.beansugar.oauth.o10a.model;
 import lombok.Getter;
 import org.beansugar.oauth.model.type.OAuthConstants;
 import org.beansugar.oauth.model.type.SignatureType;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 public final class OAuth10aConfig {
 

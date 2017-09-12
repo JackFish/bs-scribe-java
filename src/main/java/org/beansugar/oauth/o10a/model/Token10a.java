@@ -1,7 +1,7 @@
 package org.beansugar.oauth.o10a.model;
 
 import lombok.Getter;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.io.Serializable;
 

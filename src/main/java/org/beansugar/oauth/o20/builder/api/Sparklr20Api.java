@@ -7,7 +7,7 @@ import org.beansugar.oauth.o20.extractor.AccessTokenExtractor20;
 import org.beansugar.oauth.o20.extractor.AccessTokenJsonExtractor20;
 import org.beansugar.oauth.o20.model.OAuth20Config;
 import org.beansugar.oauth.utils.OAuthEncoder;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 /**
  * @author Boris G. Tsirkin <mail@dotbg.name>

@@ -4,7 +4,7 @@ import org.beansugar.oauth.exceptions.OAuthParametersMissingException;
 import org.beansugar.oauth.model.type.OAuthConstants;
 import org.beansugar.oauth.net.OAuthRequest;
 import org.beansugar.oauth.utils.OAuthEncoder;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.util.Map;
 

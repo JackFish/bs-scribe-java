@@ -5,7 +5,7 @@ import org.beansugar.oauth.o10a.builder.api.Api10a;
 import org.beansugar.oauth.o10a.model.OAuth10aConfig;
 import org.beansugar.oauth.o10a.service.OAuth10aService;
 import org.beansugar.oauth.utils.ClassUtils;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 /**
  * Implementation of the Builder pattern, with a fluent interface that creates a

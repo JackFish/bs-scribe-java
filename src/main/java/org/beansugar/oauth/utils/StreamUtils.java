@@ -3,7 +3,7 @@ package org.beansugar.oauth.utils;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.io.IOException;
 import java.io.InputStream;

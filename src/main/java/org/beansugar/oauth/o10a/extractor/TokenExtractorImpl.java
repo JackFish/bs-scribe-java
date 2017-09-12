@@ -4,7 +4,7 @@ import org.beansugar.oauth.exceptions.OAuthException;
 import org.beansugar.oauth.extractors.RequestTokenExtractor;
 import org.beansugar.oauth.o10a.model.Token10a;
 import org.beansugar.oauth.utils.OAuthEncoder;
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

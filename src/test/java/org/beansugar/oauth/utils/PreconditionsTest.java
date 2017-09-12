@@ -1,6 +1,6 @@
 package org.beansugar.oauth.utils;
 
-import org.beansugar.tools.core.check.Check;
+import org.scriptonbasestar.tool.core.check.Check;
 import org.junit.Test;
 
 public class PreconditionsTest {
