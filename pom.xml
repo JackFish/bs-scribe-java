@@ -4,10 +4,10 @@
 	<groupId>org.beansugar.oauth</groupId>
 	<artifactId>bs-oauth-java</artifactId>
 	<packaging>jar</packaging>
-	<version>2.0.6</version>
+	<version>20170912-1-RELEASE</version>
 	<name>BS OAuth library</name>
 	<description>scribe-java 베이스로 했었는데 변경을 좀 심하게함. 호환안됨.</description>
-	<url>http://github.com/archmagece/bs-scribe-java.git</url>
+	<url>http://github.com/archmagece-backyard/bs-scribe-java.git</url>
 
 	<properties>
 		<java_version>1.7</java_version>
@@ -118,7 +118,7 @@
 		<repository>
 			<id>bintray-archmagece-jvm-repo</id>
 			<name>archmagece-jvm-repo</name>
-			<url>https://api.bintray.com/maven/archmagece/jvm-repo/sb-oauth-java/;publish=1</url>
+			<url>https://api.bintray.com/maven/archmagece/jvm-repo/bs-oauth-java/;publish=1</url>
 		</repository>
 		<!--<repository>-->
 		<!--<id>beansugar-public-release</id>-->
