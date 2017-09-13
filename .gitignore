@@ -1,20 +1,33 @@
-
 # Eclipse specific settings
-
 .classpath
 .project
 .settings
 
 # IntelliJ Idea settings
-
 .idea
 *.iml
 
 # Binaries
-
 target
 bin/
+build/
+*/build/
+classes/
+.gradle/
+out/
 
-#log
-log
-logs
+# log
+*.log
+log/
+logs/
+
+# os
+.DS_Store
+
+#test
+*/test/*/*TestLocal.java
+*ExampleLocal.java
+*MainLocal.java
+test.*.json
+test.*.xml
+*-test.properties
