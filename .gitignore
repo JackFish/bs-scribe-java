@@ -18,17 +18,22 @@ nbdist/
 .idea
 *.iml
 out/
+*.iws
+*.ipr
 
 # Build - Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
+!mvn/wrapper/maven-wrapper.jar
 
 # Build - Gradle
 bin/
 build/
 */build/
-classes/
 .gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Build - etc
+classes/
 
 # log
 *.log
